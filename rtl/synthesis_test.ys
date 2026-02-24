@@ -1,0 +1,13 @@
+read_verilog fir_shift_reg.v
+read_verilog fir_multiplier_array.v
+read_verilog fir_adder_tree.v
+read_verilog clock_divider.v
+read_verilog adaptive_controller.v
+read_verilog slack_quantizer.v
+read_verilog clock_controller.v
+read_verilog slack_sensor.v
+read_verilog slack_replica_path.v
+read_verilog slack_monitor.v
+read_verilog fir_top.v
+synth_report -top fir_top -list synth_report.txt
+report_object -spec synth_report.txt

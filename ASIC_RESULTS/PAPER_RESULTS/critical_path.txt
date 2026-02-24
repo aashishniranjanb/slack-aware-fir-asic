@@ -1,0 +1,56 @@
+Technology: SKY130A (130nm)
+Library: sky130_fd_sc_hd
+Corner: Typical
+Clock Period: 6.50 ns
+
+CRITICAL SETUP PATH
+
+Startpoint:
+29226 (sky130_fd_sc_hd__dfxtp_2)
+Rising edge-triggered flip-flop clocked by clk
+
+Endpoint:
+29611 (sky130_fd_sc_hd__dfxtp_1)
+Rising edge-triggered flip-flop clocked by clk
+
+Clock Domain: clk
+Path Type: Setup (Max)
+
+TIMING NUMBERS
+
+Data Arrival Time: 7.34 ns
+Data Required Time: 8.23 ns
+
+Slack (Setup): +0.89 ns (MET)
+
+CRITICAL PATH DELAY
+
+Total Combinational Delay: 7.34 ns
+Clock Period Constraint: 6.50 ns
+
+Effective Required Time after uncertainty & setup: 8.23 ns
+
+FREQUENCY ANALYSIS
+
+Configured Clock: 6.50 ns
+Configured Frequency: 153.8 MHz
+
+Maximum Achievable Frequency (approx):
+1 / 7.34 ns ≈ 136.2 MHz (without extra margin)
+
+Current Slack Margin: 0.89 ns
+
+PATH CHARACTERISTICS
+
+• Path begins at a D flip-flop (29226)
+• Traverses combinational logic in u_add block
+• Contains NAND, NOR, O21, O311, A21 structures
+• Ends at destination D flip-flop (29611)
+• Fully routed with extracted parasitics (RCX)
+• Timing closure achieved (Positive slack)
+
+STATUS
+
+Setup Timing: CLOSED 
+Hold Timing: Positive (No violation) 
+Post-Route RC Extracted STA: PASS

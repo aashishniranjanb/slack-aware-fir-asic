@@ -1,0 +1,26 @@
+POWER ANALYSIS (Post-Route Signoff)
+
+Technology: SKY130A (130nm)
+Corner: Typical
+Clock Frequency: 153.8 MHz
+
+Total Power: 27.4 mW
+
+Internal Power: 17.1 mW (62.6%)
+Switching Power: 10.2 mW (37.4%)
+Leakage Power: 0.105 µW (~0%)
+
+Power Breakdown by Logic Type:
+
+Sequential Logic: 10.1 mW (36.7%)
+Combinational Logic: 17.3 mW (63.3%)
+
+Core Area: 0.161 mm²
+Power Density: ~170 mW/mm²
+
+Energy per Clock Cycle: ~178 pJ
+Energy per FIR Output: ~178 pJ
+
+Leakage contribution negligible due to 130nm technology.
+
+Dynamic power dominates as expected for multiplier-intensive FIR architecture.

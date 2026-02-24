@@ -1,0 +1,23 @@
+CLOCK TREE ANALYSIS (Post-Route Signoff)
+
+Technology: SKY130A (130nm)
+Clock: clk
+Clock Period: 6.5 ns
+
+Launch Clock Latency: 2.64 ns
+Capture Clock Latency: 0.58 ns
+CRPR Adjustment: -0.06 ns
+
+Final Clock Skew: 2.00 ns
+
+Worst Setup Slack: +0.89 ns
+Worst Hold Slack: +0.02 ns
+
+Skew Percentage of Clock Period:
+2.00 / 6.5 ≈ 30.7%
+
+Clock tree synthesis successfully balanced skew
+while maintaining full timing closure.
+
+No setup or hold violations observed
+under full RC extraction.

@@ -1,0 +1,33 @@
+CLOCK TREE ANALYSIS
+
+(Post-Route CTS Results)
+
+Technology: SKY130A (130nm)
+
+Total Flip-Flops: 2026
+Total Clock Buffers Inserted: 1324
+
+Clock Buffer Distribution:
+
+clkbuf_1: 810
+clkbuf_16: 317
+clkbuf_4: 154
+clkbuf_8: 24
+clkbuf_2: 19
+
+Clock Buffer to Register Ratio: 0.65
+
+Clock Tree Characteristics:
+
+• Hierarchical multi-stage buffering
+• High-drive trunk buffers (clkbuf_16) used for root distribution
+• Medium-strength buffers (clkbuf_4/8) for intermediate nodes
+• Leaf buffers (clkbuf_1) drive local flip-flops
+• Balanced clock tree synthesized automatically
+• No hold violations reported
+• Setup slack positive post-RCX extraction
+
+Clock Period: 6.5 ns
+Operating Frequency: 153.8 MHz
+
+CTS successfully balanced skew and insertion delay.

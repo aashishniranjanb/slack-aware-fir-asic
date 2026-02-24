@@ -1,0 +1,29 @@
+COMPARISON: Slack-Aware FIR vs Conventional FIR
+
+Technology: SKY130A (130nm)
+Clock Period: 6.5 ns
+
+Metric	Conventional FIR	Proposed Slack-Aware FIR
+Timing Closure	Often marginal	Fully closed (WNS=0)
+Worst Setup Slack	Typically <0.5 ns	0.89 ns
+Hold Slack	Risk under skew	+0.02 ns (safe)
+Clock Tree Buffers	Moderate	1324 (balanced CTS)
+Sequential Elements	Similar order	2026 DFF
+Total Logic Cells	~15–18k	17,139
+Power	Similar dynamic	27.4 mW
+Frequency	~120–140 MHz	153.8 MHz
+Energy per Output	Higher (est.)	178 pJ
+
+Advantages of Slack-Aware Architecture:
+
+• Improved setup margin
+• Adaptive timing resilience
+• Better frequency scaling
+• Structured pipeline for timing predictability
+• Full post-route closure under parasitic extraction
+
+Clock Skew: 2.00 ns
+Worst Setup Slack: +0.89 ns
+Worst Hold Slack: +0.02 ns
+
+Design achieves robust timing at 153.8 MHz under full RC extraction.

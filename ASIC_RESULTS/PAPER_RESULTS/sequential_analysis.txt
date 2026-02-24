@@ -1,0 +1,28 @@
+SEQUENTIAL ARCHITECTURE ANALYSIS
+
+Total Sequential Elements (DFF): 2026
+Total Logic + Sequential Cells: 17139
+
+Sequential Ratio: 11.8%
+Combinational Ratio: 88.2%
+
+Pipeline Characteristics:
+
+• Multiplier stage is sequentially registered
+• Adder tree includes pipeline registers
+• Control logic implemented as synchronous FSM
+• Slack monitoring and adaptive control are clocked
+• Full synchronous single-clock design
+
+Clock Network:
+
+• Clock buffers inserted during CTS
+• Balanced clock tree
+• No hold violations
+
+Register Density:
+
+Total Area: 161203 µm²
+Area per Register: ~79.6 µm²
+
+Design exhibits moderate pipelining depth suitable for 153.8 MHz operation.

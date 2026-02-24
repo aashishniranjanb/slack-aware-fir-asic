@@ -1,0 +1,5 @@
+OpenLane/
+*.log
+*.rpt
+runs/
+venv/
